@@ -3,7 +3,7 @@ const cors = require('cors');
 const path = require('path');
 const { MongoClient } = require('mongodb');
 require('dotenv').config();
-const serverless = require("serverless-http");
+// const serverless = require("serverless-http");
 
 const app = express();
 const PORT = process.env.PORT || 5000;
