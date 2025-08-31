@@ -231,7 +231,7 @@ async function connectToMongoDB() {
 
 // CORS configuration for production
 const corsOptions = {
-  origin: process.env.FRONTEND_URL || 'https://fromthe90s.onrender.com',
+  origin: '*',
   credentials: true,
   optionsSuccessStatus: 200
 };
